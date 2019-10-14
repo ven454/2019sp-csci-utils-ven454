@@ -29,7 +29,7 @@ install:
     - virtualenv --version
     - easy_install --version
     - pip --version
-    - tox-travis --version
+    - tox_travis --version
 script:
     - tox -v
 after_failure:
